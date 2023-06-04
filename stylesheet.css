@@ -1,0 +1,122 @@
+body, nav, head, header, footer, p, h1, ul, ol, tr, td, a, #image{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:inherit;
+	height:100%;
+	width:100%;
+	background-color:#343435;
+}
+
+#container{
+	text-align:center;
+	background-color:#343435;
+	height:100%;
+	width:100%;
+	
+}
+
+#Rook,#Knight,#RuyLopez{
+	margin:10px;
+	border-radius:10px;
+	width:200px;
+	height:150px;
+	margin-left:auto;
+    margin-right:auto;
+}
+
+article{
+	width:80%;
+	height:auto;
+	margin:10px;
+	margin-left:auto;
+    margin-right:auto;
+	padding:0.1em;
+	border-radius:10px;
+	background-color:#ffffff;
+	float:left,center;
+	}
+	
+ul#pieces{
+	list-style-position: inside;
+	width:inherit;
+	margin:auto;
+	margin-left:42%;
+
+}
+
+li{
+	text-align:left;
+}
+
+nav {
+	margin-top:2em;
+	margin:auto;
+}
+
+nav ul{
+	padding:0.5em;
+	list-style-type:none;
+	text-align:center;
+}
+
+nav li{
+	margin-top:0.5em;
+	display:inline;
+	border-radius:10px;
+	padding:0.6em;
+	background-color:#ffffff;
+	margin-right:0.1em;
+	width:auto;
+	text-align:center;
+
+}
+
+a:link{
+ 	color:blue;
+	font-family:Tahoma, Helvetica, sans-serif;
+	font-size:16px;
+	color:blue;
+}
+
+
+a:hover{
+	color:black;
+}
+
+footer{
+	width:100%;
+	height:auto;
+	margin:auto;
+	padding:0.3em;
+	border-radius:10px;
+}
+
+h1{
+	font-family:Tahoma, Helvetica, sans-serif;
+	font-size:36px;
+	color:white;
+}
+
+h2{
+	font-family:Lucida Console, Monaco, monospace; 
+	font-size:32px;
+	
+}
+h3{
+	font-family:Times New Roman, Times, serif;
+	font-size:24px;
+}
+
+p{
+	font-family:Tahoma, Helvetica, sans-serif;
+	font-size:px48;
+}
+
+@media (max-width: 500px){ 
+	body{width:100%;}
+	nav{width:40%;}
+	nav li{display:block;}
+}
